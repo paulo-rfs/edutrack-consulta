@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de Presenca - Pais</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><i class="fas fa-user-graduate"></i> Consulta de Presenca</h1>
+      <p>Digite o nome ou codigo do aluno para verificar a presenca</p>
+    </header>
+
+    <div class="consulta-box">
+      <input type="text" id="buscaInput" placeholder="Ex: Gabriel ou A3 77 2B 14" />
+      <button id="consultarBtn" class="btn btn-primary">
+        <i class="fas fa-search"></i> Consultar
+      </button>
+    </div>
+
+    <div id="resultado" class="resultado">
+      <p class="info"> Aguardando consulta...</p>
+    </div>
+
+    <footer>
+      <p>Sistema de Controle de Presenca Escolar</p>
+    </footer>
+  </div>
+
+  <script src="js/consulta-script.js"></script>
+</body>
+</html>

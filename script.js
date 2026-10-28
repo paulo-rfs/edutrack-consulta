@@ -1,0 +1,1 @@
+const FIREBASE_URL = 'https://presenciometro-escolar-default-rtdb.firebaseio.com
